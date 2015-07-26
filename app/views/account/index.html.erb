@@ -1,2 +1,23 @@
-<h1>Account#index</h1>
-<p>Find me in app/views/account/index.html.erb</p>
+<div class="container">
+  <div class="blog-header">
+    <h3 class="blog-title" style="padding-left: 15px;">Вороной Александр Юрьевич</h3>
+  </div>
+
+  <div class="col-sm-8 blog-main" style="width: 50%">
+    <%= image_tag('avatar.jpg', size: "478x350") %>
+  </div>
+
+  <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    <div class="sidebar-module sidebar-module-inset">
+
+      <ol class="list-unstyled">
+
+        <li><%= link_to "Обо мне", "#" %></li>
+        <li><%= link_to "Мои работы", "#" %></li>
+        <li><%= link_to "Сделать заказ", "#" %></li>
+        <li><%= link_to "Контакты", "#" %></li>
+
+      </ol>
+    </div>
+  </div>
+</div>
